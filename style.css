@@ -125,9 +125,10 @@ html,body{
 	margin-left: 0;
 }
 
-.site-title a{
+body.has-header-image .site-title, body.has-header-video .site-title, body.has-header-image .site-title a, body.has-header-video .site-title a{
 	font-weight: 300;
 	letter-spacing: 2px;
+	color: black;
 }
 
 .menu-toggle{
@@ -162,6 +163,20 @@ html,body{
 	.custom-header{
 		left:inherit;
 		transform: inherit;
+	}
+}
+
+@media screen and (max-width: 48em){
+	.menu-item .dropdown-toggle{
+		font-size: 16px;
+		line-height: 1.5;
+		margin: 0 auto;
+		display: inline;
+		position: relative;
+	}
+	
+	.main-navigation .menu-item-has-children a{
+		display: inline
 	}
 }
 
