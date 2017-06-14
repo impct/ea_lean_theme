@@ -10,5 +10,5 @@
 
 ?>
 <div class="site-info">
-	<a href="<?php echo esc_url( __( '/', 'twentyseventeen' ) ); ?>"><?php printf( __( 'Copyright 2017   ' . get_bloginfo('name','display'), 'twentyseventeen' ) ); ?></a>
+	<a href="/"><?php printf( __( 'Copyright 2017   ' . get_bloginfo('name','display'), 'twentyseventeen' ) ); ?></a>
 </div><!-- .site-info -->
